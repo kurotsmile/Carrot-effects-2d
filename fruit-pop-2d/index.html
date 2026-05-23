@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fruit Pop 2D</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hud">
+      <div>
+        <p class="eyebrow">Carrot HTML5 Game</p>
+        <h1>Fruit Pop 2D</h1>
+      </div>
+      <div class="stats">
+        <span>Score <b id="score">0</b></span>
+        <span>Combo <b id="combo">0</b>x</span>
+        <span>Time <b id="time">60</b>s</span>
+      </div>
+    </section>
+    <canvas id="game" width="960" height="540" aria-label="Fruit Pop 2D game canvas"></canvas>
+    <section class="panel">
+      <button id="startBtn">Start Game</button>
+      <button id="muteBtn">Sound On</button>
+      <p>Tap or click fruits before they fall. Avoid bombs. Chain fast pops to grow your combo.</p>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
